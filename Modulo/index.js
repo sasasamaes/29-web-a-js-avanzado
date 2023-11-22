@@ -1,3 +1,4 @@
+// CommonJs
 const commonJs = require('./commonJs.js')
 
 // a.variableAexportar()

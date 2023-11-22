@@ -9,7 +9,7 @@ const funcionB = function (){
   console.log('Hola funcionB')
 }
 
-// exports.variableAexportar = function (){
+// exports.printHola = function (){
 //   console.log('Hola')
 // }
 
@@ -19,7 +19,7 @@ const funcionB = function (){
 
 
 // module.exports = {
-//   funcionConCambioDeNombre: funcionA,
+//   funcionA,
 //   funcionB
 // }
 // Export
