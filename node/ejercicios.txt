@@ -1,0 +1,9 @@
+1- Desarrolla un script que copie el contenido de un archivo a otro.
+
+2- Crea una función que tome una ruta y devuelva la extensión del archivo.
+
+3- Escribe una función que devuelva la información sobre el usuario actual del sistema.
+
+4- Desarrolla un programa que determine el tiempo de actividad del sistema.
+
+5- Crear un pequeno servidor que devuelva un html

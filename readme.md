@@ -9,6 +9,9 @@ Node es un entorno multiplataforma para ejecutar JavaScript fuera del navegador,
 #### **Instalacion**
 [Descargar LTS](https://nodejs.org/es/download/)
 
+#### **LTS**
+LTS es long term support
+
 ## Preguntar que version tenemos
 node -v
 npm -v
@@ -25,4 +28,16 @@ npm es el sistema de gestión de paquetes por defecto para Node.js, un entorno d
 - Generar páginas dinámicas en un servidor web. => server side render
 - Crear, leer y escribir archivos.
 - Procesar y almacenar archivos enviados desde una página web.
+
+**Elementos de node**
+Dentro de node se utilizan los módulos y las callbacks.
+
+- **Módulo:** Permiten aislar parte de nuestro código en diferentes archivos y mandarlos llamar sólo cuándo los necesitamos.
+  Existen dos **formas de utilizar módulos** en node:
+    - Common JS.
+    - ES6 Imports.
+
+
+
+
 
