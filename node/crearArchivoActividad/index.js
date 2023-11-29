@@ -7,8 +7,8 @@ const fileName = 'archivoActividad.txt'
 const contentFile = 'Archivo creado por el script'
 const destination = `${path}${fileName}`
 
-fs.writeFile(destination,contentFile, (err) => {
-  if(err) {
+fs.writeFile(destination, contentFile, (err) => {
+  if (err) {
     throw err;
   } else {
     console.log(`El archivo ${fileName} se ha creado correctamente`)
