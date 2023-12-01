@@ -1,11 +1,32 @@
 // LA FUNCION FLECHA, ES UNA MANERA DE ESCRIBIR UNA FUNCION EN JAVASCRIPT.
 // - NOS DA UNA SINTAXIS MAS LIMPIA Y FACIL DE LEER
 
-
+// 1er. EJEMPLO
 // SON FUNCIONES ANONIMAS(NO TIENEN NOMBRE), QUE SE PUEDEN O NO, ALMACENAR EN VARIABLES O CONSTANTES
-const saludar = (nombre) => {
-  console.log("Hola " + nombre);
-  return 1;
-};
+// const saludar = (nombre) => {
+//   console.log("Hola " + nombre);
+//   return 1;
+// };
 
-saludar("Cinthya")
+// saludar("Cinthya")
+
+// 2do. EJEMPLO
+// CREAR UNA FUNCION FLECHA QUE PIDA COMO PARAMETROS DOS NUMEROS Y RETORNE LA SUMA DE ESTOS.
+// SHORT ARROW FUNCTION
+// REGLAS DE SINTAXIS EN ARROW FUNCTIONS
+// * SI MI FUNCION SOLO RETORNA UN VALOR, PUEDO QUITAR EL return EXPLICITO, LAS LLAVES Y HACER USO DEL return IMPLICITO
+const suma = (num1, num2) => num1 + num2;
+
+console.log(suma(6, 7));
+
+// SHORT ARROW FUNCTIONS QUE PIDEN UN PARAMETRO
+// * SI PIDES SOLO UN PARAMETRO, LE PUEDES QUITAR LOS PARENTESIS A ESA PARTE DE LA FUNCION
+const saludar = persona => `¡Hola ${persona}!`;
+
+console.log(saludar("Miguel"));
+
+
+
+
+
+
