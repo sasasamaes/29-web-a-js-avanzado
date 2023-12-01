@@ -1,0 +1,20 @@
+{
+  "name": "29-web-a-js-avanzado",
+  "version": "1.0.0",
+  "description": "1. [Node] (#node)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasasamaes/29-web-a-js-avanzado.git"
+  },
+  "keywords": [],
+  "author": "Enrique Maya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sasasamaes/29-web-a-js-avanzado/issues"
+  },
+  "homepage": "https://github.com/sasasamaes/29-web-a-js-avanzado#readme"
+}
