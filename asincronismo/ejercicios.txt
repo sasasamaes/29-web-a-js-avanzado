@@ -1,0 +1,48 @@
+
+
+1 - // Define una función llamada `sumaAsincrona` que tome dos números y un callback.
+// La función debe simular una operación asincrónica y llamar al callback con el resultado después de un breve tiempo.
+
+2 - // Define una función llamada `multiplicacionPromesa` que tome dos números.
+// La función debe devolver una promesa que resuelva con el resultado de la multiplicación después de un breve tiempo.
+
+3 - // Define una función llamada `cuadradoPromesa` que tome un número.
+// La función debe devolver una promesa que resuelva con el resultado de elevar el número al cuadrado.
+
+4 - // Simula una operación asincrónica utilizando callbacks.
+// Realiza las siguientes operaciones y muestra el resultado final.
+// con la suma de resultado1,resultado2 y resultado3
+// callback Hell
+     ⬇️
+//usar estas funciones
+// Realiza las operaciones de manera secuencial
+
+function operacionAsincrona1(callback) {
+  setTimeout(() => {
+    const resultado1 = 10;
+    callback(resultado1);
+  }, 1000);
+}
+
+function operacionAsincrona2(callback) {
+  setTimeout(() => {
+    const resultado2 = 5;
+    callback(resultado2);
+  }, 800);
+}
+
+function operacionAsincrona3(callback) {
+  setTimeout(() => {
+    const resultado3 = 2;
+    callback(resultado3);
+  }, 1200);
+}
+
+
+
+
+
+
+
+
+
