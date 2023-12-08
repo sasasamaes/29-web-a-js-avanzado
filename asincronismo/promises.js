@@ -12,7 +12,7 @@ Proceso de ejercicio en clase
  * ( Pending, Response (resolve, reject))
  */
 
-class Promises{
+class Promises {
   ejecucion(){
     console.log('============== BLOQUE 4 ==============');
 
@@ -38,7 +38,9 @@ class Promises{
 
       })
     }
+
     console.log('1 Presiona el boton de comprar')
+    
     validatePaymentPromise()
     .then((response) => {
       console.log(response)
