@@ -7,7 +7,9 @@ let input_todo = d.getElementById("input-todo");
 let btn_add = d.getElementById("btn-add");
 let content_w = d.getElementById("content-wrapper");
 
-// FUNCION QUE CREE ELEMENTOS PARA LA LISTA DE TAREAS DE FORMA DINAMICA
+const url = "http://localhost:3000/data"
+
+// FUNCION QUE CREA ELEMENTOS PARA LA LISTA DE TAREAS DE FORMA DINAMICA
 function printTask(task) {
   let li = document.createElement("li");
   let p = document.createElement("p");
@@ -39,5 +41,10 @@ function printTask(task) {
 
   content_w.appendChild(li);
 };
+
+// FUNCION QUE OBTIENE DATOS DE LA API DE PRUEBAS
+function getData() {
+  // fetch(url)
+}
 
 printTask("Limpiar mi cuarto");
