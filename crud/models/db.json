@@ -1,14 +1,3 @@
 {
-  "publicaciones": [
-    {
-      "id": 1,
-      "titulo": "Primera publicacion"
-    }
-  ],
-  "perfiles": [
-    {
-      "id": "3jh4j32h4jk32h",
-      "nombre": "Cinthya"
-    }
-  ]
+  "data": []
 }
