@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sasasamaes/29-web-a-js-avanzado/issues"
   },
-  "homepage": "https://github.com/sasasamaes/29-web-a-js-avanzado#readme"
+  "homepage": "https://github.com/sasasamaes/29-web-a-js-avanzado#readme",
+  "dependencies": {
+    "uuid": "^9.0.1"
+  }
 }
